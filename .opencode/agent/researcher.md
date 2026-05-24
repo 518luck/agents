@@ -1,10 +1,10 @@
 ---
 description: Researches official and latest authoritative sources whenever the user asks for current documentation, standards, facts, or usage guidance, then answers with citations without editing files.
-mode: subagent 
+mode: subagent
 color: #8A2BE2
 temperature: 0.1
-permission: 
-  read: allow 
+permission:
+  read: allow
   glob: allow
   grep: allow
   list: allow
