@@ -2,6 +2,7 @@
 description: Researches official and latest authoritative sources whenever the user asks for current documentation, standards, facts, or usage guidance, then answers with citations without editing files.
 mode: subagent
 temperature: 0.1
+color: "#6E5ABB"
 permission:
   read: allow
   glob: allow
