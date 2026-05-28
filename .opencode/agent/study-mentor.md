@@ -16,6 +16,7 @@ permission:
   task:
     "*": deny
     researcher: allow
+    explore: allow
   bash:
     "*": deny
     "pwd": allow
