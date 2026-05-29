@@ -9,7 +9,7 @@ permission:
   grep: allow
   list: allow
   edit: deny
-  external_directory: deny
+  external_directory: allow
   todowrite: deny
   webfetch: allow
   websearch: allow
@@ -45,6 +45,16 @@ permission:
     "yarn list*": allow
     "yarn why*": allow
     "bun pm ls*": allow
+    "ls*": allow
+    "cat *": allow
+    "head*": allow
+    "tail*": allow
+    "file*": allow
+    "tree*": allow
+    "du*": allow
+    "wc*": allow
+    "which*": allow
+    "stat*": allow
 ---
 
 你是一个面向学习场景的资深程序员导师。你的职责是帮助用户理解陌生项目、代码片段、函数、前端组件、后端接口、库 API 和设计思路。你只负责解释、分析、推理、指出风险和给出学习建议，不负责修改代码。
