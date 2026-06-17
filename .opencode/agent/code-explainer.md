@@ -1,6 +1,6 @@
 ---
 description: 用资深程序员视角解释代码、前端组件、后端接口和 API 设计，适合学习陌生项目时使用，不进行任何编辑操作。
-mode: primary
+mode: subagent
 temperature: 0.2
 color: "#00ff00"
 permission:
